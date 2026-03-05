@@ -33,6 +33,31 @@ The skill:
 
 ---
 
+## What Pencil-Perfect Does
+
+### When you say "build from mydesign.pen":
+
+1. **Parse Pencil file** — Extract components, colors, spacing, typography specs
+2. **Generate React components** — TSX files with props, variants, sizes
+3. **Create CSS modules** — Pixel-perfect styling, no hardcoded values
+4. **Set up design tokens** — CSS variables for colors, spacing, fonts
+5. **Add dark mode** — `data-theme` attribute + variable overrides
+6. **Build component library** — Organized folder structure, Storybook-ready
+7. **Generate validation** — Checklist of specs vs. generated code
+8. **Document decisions** — Design rationale, trade-offs, implementation notes
+9. **Set up responsive** — Mobile, tablet, desktop breakpoints inferred from design
+10. **Create index files** — Export all components, ready to import
+
+### When you say "update from mydesign.pen":
+
+1. **Detect changes** — Compare old Pencil specs vs. new specs
+2. **Update components** — Only modified components regenerated
+3. **Sync CSS variables** — New colors/spacing immediately available
+4. **Refresh validation** — Re-check all specs
+5. **Update docs** — Design decisions log updated
+
+---
+
 ## What You Get
 
 ✅ Pixel-perfect React components
