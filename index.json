@@ -1,0 +1,91 @@
+{
+  "name": "pencil-perfect",
+  "displayName": "Pencil-Perfect: Design-to-Code at Production Scale",
+  "version": "1.0.0",
+  "description": "Convert Pencil designs to pixel-perfect React/Next.js code with automatic validation, component extraction, and design decision documentation.",
+  "author": "Prfct",
+  "license": "Apache-2.0 (code) + CC-BY-4.0 (docs)",
+  "keywords": [
+    "design-to-code",
+    "pencil",
+    "pixel-perfect",
+    "component-generation",
+    "design-validation",
+    "animation-standards",
+    "design-system",
+    "react",
+    "nextjs",
+    "tailwind",
+    "css-variables"
+  ],
+  "skills": [
+    {
+      "id": "pencil-perfect",
+      "name": "Pencil-Perfect Workflow",
+      "description": "End-to-end design-to-code workflow with validation, animation standards, and design documentation",
+      "category": "design-to-code",
+      "useCases": [
+        "Convert Pencil designs to React components",
+        "Validate pixel-perfect implementation",
+        "Document design decisions",
+        "Enforce animation standards across projects",
+        "Extract components from design systems",
+        "Generate component APIs"
+      ],
+      "supportedFrameworks": [
+        "React 18+",
+        "Next.js 14+"
+      ],
+      "supportedLibraries": [
+        "Tailwind CSS",
+        "Framer Motion",
+        "TypeScript"
+      ]
+    }
+  ],
+  "capabilities": {
+    "designExtraction": {
+      "formats": [".pen", "JSON", "SVG"],
+      "outputs": ["component-specs", "tokens", "typography-scales", "color-palettes"]
+    },
+    "codeGeneration": {
+      "frameworks": ["React", "Next.js"],
+      "styling": ["Tailwind CSS", "CSS Modules"],
+      "languages": ["TypeScript", "JavaScript"]
+    },
+    "validation": {
+      "layers": [
+        "structural (components, props, hierarchy)",
+        "visual-fidelity (typography, colors, spacing)",
+        "pixel-perfect-specs (measurements, responsive, dark mode)"
+      ],
+      "checklist": true,
+      "automatedValidation": false
+    },
+    "documentation": {
+      "designDecisions": true,
+      "componentAPI": true,
+      "rationale": true
+    },
+    "animationStandards": {
+      "listAnimations": "0.3s fade with 50ms stagger",
+      "pageTransitions": "0.5s fade no exit",
+      "bottomSheets": "spring entry slide exit",
+      "consistentEasing": "[0.25, 0.46, 0.45, 0.94]"
+    }
+  },
+  "pricing": {
+    "model": "free",
+    "tier": "community"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prfct/pencil-perfect-skill"
+  },
+  "documentation": {
+    "main": "README.md",
+    "skill": "SKILL.md",
+    "examples": "examples/",
+    "templates": "templates/"
+  }
+}
