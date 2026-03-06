@@ -6,14 +6,42 @@ Save time and pain by generating on-point applications directly from Pencil.dev 
 
 <img height="600" alt="scene" src="https://github.com/user-attachments/assets/1ad333de-10ce-4f2b-8848-3608c842bc02" />
 
-## Quick Start
+## Installation
 
-### 1. Install
+### Step 1: Copy to Claude Code Skills Directory
 
-Copy to your Claude Code skills directory:
 ```bash
 cp -r ~/.claude/skills/pencil-perfect SKILL.md
 ```
+
+Or manually clone:
+```bash
+git clone https://github.com/asl677/pencil-perfect-skill.git ~/.claude/skills/pencil-perfect
+cd ~/.claude/skills/pencil-perfect && npm install
+```
+
+### Step 2: Verify Installation
+
+In Claude Code, run:
+```
+/plugin list
+```
+
+You should see `pencil-perfect` in the list of available skills.
+
+### Step 3 (Optional): Install from Marketplace
+
+```
+/plugin install pencil-perfect@ananddtyagi/cc-marketplace
+```
+
+---
+
+## Quick Start
+
+### 1. Prerequisites
+
+Make sure you have installed the skill (see Installation section above).
 
 ### 2. Connect Pencil
 
