@@ -50,6 +50,69 @@ The skill will:
 
 ---
 
+## How to Use
+
+### Trigger the Skill
+
+In Claude Code, mention any of these:
+- "Build from my Pencil design"
+- "Generate React code from this .pen file"
+- "Convert Pencil to code"
+- "Create components from my design"
+
+Or use the slash command:
+```
+/skills pencil-perfect
+```
+
+### Example Commands
+
+**Basic:** Generate components from a design file
+```
+Build a React app from button-design.pen
+```
+
+**With specs:** Provide design specs if you don't have a .pen file
+```
+Generate a Button component with:
+- Primary variant: blue background
+- Secondary variant: transparent with border
+- Sizes: small (32px), medium (44px), large (48px)
+```
+
+**Refine:** Fix hardcoded values in existing code
+```
+This React Button has hardcoded colors and padding.
+Convert to CSS variables using design tokens.
+```
+
+---
+
+## Troubleshooting
+
+**"Skill not triggering?"**
+- Use explicit keywords: "Pencil," "design," ".pen file," "component"
+- Try: `Build from my Pencil design myfile.pen`
+
+**"Generated code doesn't match my design"**
+- Make sure all colors/spacing in Pencil are exact values
+- Align measurements to 8px grid
+- Check fonts and font sizes match exactly
+
+**"Dark mode not working"**
+- Verify CSS variables are defined for both light and dark themes
+- Check that `data-theme="dark"` is set on the HTML root element
+
+**"Missing CSS variables"**
+- Generated code should use `var(--color-primary)` not hardcoded `#colors`
+- If hardcoded, ask: "Convert all hardcoded values to CSS variables"
+
+**"Responsive layout broken"**
+- Test at 480px (mobile), 768px (tablet), 1200px (desktop)
+- Check that grid/flexbox layouts adapt properly
+
+---
+
 ## What You Get
 
 - React components (JSX)
