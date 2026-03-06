@@ -6,6 +6,17 @@ Save time and pain by generating on-point applications directly from Pencil.dev 
 
 <img height="600" alt="scene" src="https://github.com/user-attachments/assets/1ad333de-10ce-4f2b-8848-3608c842bc02" />
 
+## Prerequisites
+
+Before installing, make sure you have:
+
+- **[Claude Code CLI](https://github.com/anthropics/claude-code)** installed
+- **[Node.js 18+](https://nodejs.org/)** installed
+- **[Pencil App](https://pencil.dev)** downloaded
+- **[Claude API key](https://console.anthropic.com)** from Anthropic
+
+---
+
 ## Installation
 
 ### Step 1: Copy to Claude Code Skills Directory
