@@ -1,6 +1,10 @@
-# Pencil-Perfect Skill
+<img width="250" alt="p-logo-sm-cl-perfect" src="https://github.com/user-attachments/assets/a28111e3-29d1-446e-861a-4fabf6a47796" />
 
-Convert Pencil designs to production-ready code with Claude Code.
+# Perfect - A Pencil to Claude Code Skill
+
+Save time and pain by generating on-point applications directly from Pencil.dev designs using Claude Code.
+
+<img height="600" alt="scene" src="https://github.com/user-attachments/assets/1ad333de-10ce-4f2b-8848-3608c842bc02" />
 
 ## Quick Start
 
